@@ -159,6 +159,10 @@ h6,
   padding: 50px 50px 80px 50px;
   background: #eceff2;
 }
+.testimonial-wrap1 {
+  padding: 50px 50px 80px 50px;
+  background: #fff;
+}
 
 .testimonial-wrap .testimonial {
   text-align: center;
@@ -540,3 +544,9 @@ h6,
   width: 100px;
   height: 100px;
 } */
+
+/* kotak */
+.kotak{
+  border: black;
+}
+

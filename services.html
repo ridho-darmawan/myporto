@@ -47,60 +47,43 @@
 
   <body>
     <!-- ======= Navbar ======= -->
-    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
-      <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Ridho Darmawan</a>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a
-                href="index.html"
-                class="nav-link"
-                style="padding-right: 50px !important;"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="about.html"
-                style="padding-right: 50px !important;"
-                >About Me</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="services.html"
-                style="padding-right: 50px !important;"
-                >Services</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="works.html"
-                style="padding-right: 50px !important;"
-                >Work</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contack</a>
-            </li>
-          </ul>
+    <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+      <div class="container py-2 py-md-5">
+        <div class="row align-items-start">
+          <div class="col-md-6">
+            <ul class="custom-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li class="active"><a href="works.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <!-- <div class="col-md-6 d-none d-md-block  mr-auto">
+            <div class="tweet d-flex">
+              <span class="icofont-twitter text-white mt-2 mr-3"></span>
+              <div>
+                <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore. <br> <a href="#">t.co/v82jsk</a></em></p>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-md-6 d-none d-md-block">
+            <h3>Hire Me</h3>
+            <p> <br>ridhodarmawan255@gmail.com<br>+62 853 6462 3827</p>
+          </div>
         </div>
+  
+      </div>
+    </div>
+
+    <nav class="navbar navbar-light custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">MyPortfolio.</a>
+  
+        <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
+          <span></span>
+        </a>
+  
       </div>
     </nav>
 
@@ -128,9 +111,9 @@
                   <div class="card-body">
                     <h5 class="card-title">Sistem Informasi</h5>
                     <p class="card-text">
-                      This is a longer card with supporting text below as a
+                      <!-- This is a longer card with supporting text below as a
                       natural lead-in to additional content. This content is a
-                      little bit longer.
+                      little bit longer. -->
                     </p>
                    
                   </div>
@@ -140,8 +123,8 @@
                   <div class="card-body">
                     <h5 class="card-title">Landing Page</h5>
                     <p class="card-text">
-                      This card has supporting text below as a natural lead-in
-                      to additional content.
+                      <!-- This card has supporting text below as a natural lead-in
+                      to additional content. -->
                     </p>
                    
                   </div>
@@ -151,10 +134,10 @@
                   <div class="card-body">
                     <h5 class="card-title">Profile Company</h5>
                     <p class="card-text">
-                      This is a wider card with supporting text below as a
+                      <!-- This is a wider card with supporting text below as a
                       natural lead-in to additional content. This card has even
                       longer content than the first to show that equal height
-                      action.
+                      action. -->
                     </p>
                    
                   </div>
@@ -231,11 +214,30 @@
               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
-          <div class="col-sm-6 social text-md-right">
+          <!-- <div class="col-sm-6 social text-md-right">
             <a href="#"><span class="icofont-twitter"></span></a>
             <a href="#"><span class="icofont-facebook"></span></a>
             <a href="#"><span class="icofont-dribbble"></span></a>
             <a href="#"><span class="icofont-behance"></span></a>
+          </div> -->
+          <div class="col-sm-6 social text-md-right">
+            <a href="https://github.com/ridho-darmawan" target="blank"
+              ><span class="icofont-github"></span
+            ></a>
+            <a href="https://web.facebook.com/ridhodarmawan21/" target="blank"
+              ><span class="icofont-facebook"></span
+            ></a>
+            <a href="mailto:ridhodarmawan255@gmail.com"
+              ><span class="icofont-email"></span
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ridho-darmawan-187bbb152/"
+              target="blank"
+              ><span class="icofont-linkedin"></span
+            ></a>
+            <a href="https://instagram.com/ridhoodarmawann" target="blank"
+              ><span class="icofont-instagram"></span
+            ></a>
           </div>
         </div>
       </div>

@@ -47,60 +47,46 @@
 
   <body>
     <!-- ======= Navbar ======= -->
-    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
-      <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Ridho Darmawan</a>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a
-                href="index.html"
-                class="nav-link"
-                style="padding-right: 50px !important;"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="about.html"
-                style="padding-right: 50px !important;"
-                >About Me</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="services.html"
-                style="padding-right: 50px !important;"
-                >Services</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="works.html"
-                style="padding-right: 50px !important;"
-                >Work</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contack</a>
-            </li>
-          </ul>
+    <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+      <div class="container py-2 py-md-5">
+        <div class="row align-items-start">
+          <div class="col-md-6">
+            <ul class="custom-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li class="active"><a href="works.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <!-- <div class="col-md-6 d-none d-md-block  mr-auto">
+            <div class="tweet d-flex">
+              <span class="icofont-twitter text-white mt-2 mr-3"></span>
+              <div>
+                <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore. <br> <a href="#">t.co/v82jsk</a></em></p>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-md-6 d-none d-md-block">
+            <h3>Hire Me</h3>
+            <p><br />ridhodarmawan255@gmail.com<br />+62 853 6462 3827</p>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-light custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">MyPortfolio.</a>
+
+        <a
+          href="#"
+          class="burger"
+          data-toggle="collapse"
+          data-target="#main-navbar"
+        >
+          <span></span>
+        </a>
       </div>
     </nav>
 
@@ -110,10 +96,8 @@
         <div class="container">
           <div class="row mb-5 align-items-center">
             <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-              <h2>Hey, I'm Johan Stanworth</h2>
-              <p class="mb-0">
-                Freelance Creative &amp; Professional Graphics Designer
-              </p>
+              <h2>Hey, I'm Ridho Darmawan</h2>
+              <p class="mb-0">Junior Web Programing</p>
             </div>
             <div
               class="col-md-12 col-lg-6 text-left text-lg-right"
@@ -122,10 +106,10 @@
             >
               <div id="filters" class="filters">
                 <a href="#" data-filter="*" class="active">All</a>
-                <a href="#" data-filter=".web">Web</a>
-                <a href="#" data-filter=".design">Design</a>
-                <a href="#" data-filter=".branding">Branding</a>
-                <a href="#" data-filter=".photography">Photography</a>
+                <a href="#" data-filter=".landing">Landing Page</a>
+                <a href="#" data-filter=".sistem">Sistem Informasi</a>
+                <!-- <a href="#" data-filter=".branding">Branding</a>
+                <a href="#" data-filter=".photography">Photography</a> -->
               </div>
             </div>
           </div>
@@ -135,58 +119,88 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div class="item landing col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="work-single.html" class="item-wrap fancybox">
                 <div class="work-info">
                   <h3>Boxed Water</h3>
                   <span>Web</span>
                 </div>
-                <img class="img-fluid" src="assets/img/img_1.jpg" />
+                <img
+                  class="img-fluid"
+                  src="assets/img/portofolio/lp-home-photo.jpg"
+                />
               </a>
             </div>
-            <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div class="item sistem col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="work-single.html" class="item-wrap fancybox">
                 <div class="work-info">
                   <h3>Build Indoo</h3>
                   <span>Photography</span>
                 </div>
-                <img class="img-fluid" src="assets/img/img_2.jpg" />
+                <img
+                  class="img-fluid"
+                  src="assets/img/portofolio/agenda-rapat/login-menu.png"
+                />
               </a>
             </div>
-            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div class="item landing col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="work-single.html" class="item-wrap fancybox">
                 <div class="work-info">
                   <h3>Cocooil</h3>
                   <span>Branding</span>
                 </div>
-                <img class="img-fluid" src="assets/img/img_3.jpg" />
+                <img
+                  class="img-fluid"
+                  src="assets/img/portofolio/lp-porttoflio1.png"
+                />
               </a>
             </div>
-            <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div class="item sistem col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="work-single.html" class="item-wrap fancybox">
                 <div class="work-info">
                   <h3>Nike Shoe</h3>
                   <span>Design</span>
                 </div>
-                <img class="img-fluid" src="assets/img/img_4.jpg" />
+                <img
+                  class="img-fluid"
+                  src="assets/img/portofolio/apratur-desa/login.png"
+                />
               </a>
             </div>
-            <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div class="item sistem col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="work-single.html" class="item-wrap fancybox">
                 <div class="work-info">
                   <h3>Kitchen Sink</h3>
                   <span>Photography</span>
                 </div>
-                <img class="img-fluid" src="assets/img/img_5.jpg" />
+                <img
+                  class="img-fluid"
+                  src="assets/img/portofolio/siga/login.png"
+                />
               </a>
             </div>
-            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div class="item sistem col-sm-6 col-md-4 col-lg-4 mb-4">
               <a href="work-single.html" class="item-wrap fancybox">
                 <div class="work-info">
                   <h3>Amazon</h3>
                   <span>brandingn</span>
                 </div>
-                <img class="img-fluid" src="assets/img/img_6.jpg" />
+                <img
+                  class="img-fluid"
+                  src="assets/img/portofolio/inventori/login.png"
+                />
+              </a>
+            </div>
+            <div class="item sistem col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="work-single.html" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Amazon</h3>
+                  <span>brandingn</span>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portofolio/arsip-surat/login.png"
+                />
               </a>
             </div>
           </div>
@@ -258,11 +272,30 @@
               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
-          <div class="col-sm-6 social text-md-right">
+          <!-- <div class="col-sm-6 social text-md-right">
             <a href="#"><span class="icofont-twitter"></span></a>
             <a href="#"><span class="icofont-facebook"></span></a>
             <a href="#"><span class="icofont-dribbble"></span></a>
             <a href="#"><span class="icofont-behance"></span></a>
+          </div> -->
+          <div class="col-sm-6 social text-md-right">
+            <a href="https://github.com/ridho-darmawan" target="blank"
+              ><span class="icofont-github"></span
+            ></a>
+            <a href="https://web.facebook.com/ridhodarmawan21/" target="blank"
+              ><span class="icofont-facebook"></span
+            ></a>
+            <a href="mailto:ridhodarmawan255@gmail.com"
+              ><span class="icofont-email"></span
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ridho-darmawan-187bbb152/"
+              target="blank"
+              ><span class="icofont-linkedin"></span
+            ></a>
+            <a href="https://instagram.com/ridhoodarmawann" target="blank"
+              ><span class="icofont-instagram"></span
+            ></a>
           </div>
         </div>
       </div>
