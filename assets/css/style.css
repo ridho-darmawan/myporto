@@ -546,7 +546,11 @@ h6,
 } */
 
 /* kotak */
-.kotak{
+.kotak {
   border: black;
 }
 
+.ket {
+  font-weight: 200;
+  font-size: 12px;
+}
